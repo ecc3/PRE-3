@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: darkgrey;
+    padding: 0;
+    z-index: 10;
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 5px 10px;
+}
+
+nav a.active {
+    background-color: black;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    height: 100px;
+}

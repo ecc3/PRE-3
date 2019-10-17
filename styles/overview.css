@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/bumblebee-background-1.jpg");
+    background-size: 15%;
+    background-color: pink;
+}
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.bee-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    background-color: lightblue;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+#topBtn {
+    position: relative;
+    float: right;
+}
+
+#overview-nav {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+#overview-nav a {
+    color: black;
+    line-height: 25px;
+}
+
+#overview-nav a:hover {
+    background-color: white;
+}
+    &.scrolled {
+        height: 50px;
+        background: rgba(50, 37, 100, 0.7);
+        color: white;
+    }

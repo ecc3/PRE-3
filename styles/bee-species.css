@@ -1,0 +1,33 @@
+body {
+    background-image: url("../images/bumblebee-background-2.jpg");
+    background-size: 20%;
+    background-color: pink;
+}
+
+.wrapper {
+    background-color: white;
+    margin: 0 12%;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    flex: 30%;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.mainbar {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.mainbar img {
+    float: left;
+    margin: 0 20px 10px 0;
+}
